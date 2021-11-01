@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(0deg, #0C415C, 50%, #146E9C, #198AC2, #1D9CDB, #1EA8EB);
+            margin: 0px;
+        }
+        header {
+            background-image: linear-gradient(to bottom, #3F4D5C, #6B829C, #86A2C2, #97B7DB, #A0C2E8);
+            border-radius: 25px 25px 0px 0px;
+            padding: 10px;
+            margin: 35px 35px 5px 35px;
+            box-shadow: 10px 10px 10px black;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        nav {
+            background-color: rgb(189, 189, 189);
+            border-radius: 25px 25px 0px 0px;
+            text-align: center;
+            padding: 3px;
+            box-shadow: inset -1px 0px 6px 6px rgb(0 0 0 / 40%);
+            margin: 0px 10px 0px 10px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 30px;
+        }
+        nav > a > abbr {
+            text-decoration: none;
+        }
+        main {
+            background-image: linear-gradient(to top, #3F4D5C, #6B829C, #86A2C2, #97B7DB, #A0C2E8);
+            border-radius: 0px 0px 25px 25px;
+            padding: 10px;
+            margin: 5px 35px 35px 35px;
+            box-shadow: 10px 10px 10px black;
+        }
+
+        #assunto {
+            font-weight: bold;
+            color: white;
+        }
+
+        article {
+            background-color: lightgray;
+            border-radius: 25px;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(189, 189, 189);
+            border-radius: 0px 0px 25px 25px;
+            box-shadow: inset -1px 0px 6px 6px rgb(0 0 0 / 40%);
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            margin: 0px 10px 0px 10px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin-top: 5px;
+        }
+
+        footer > p {
+            margin: 2px;
+            font-weight: bold;
+            text-decoration: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#"><abbr title="Tecnologias atuais">Tecnologia</abbr></a>
+            <a href="#"><abbr title="Os games do momento">Games</abbr></a>
+            <a href="#"><abbr title="Meteorologia">Tempo & Clima</abbr></a>
+            <a href="#"><abbr title="Nossos cursos profissionalizantes">Cursos</abbr></a>
+            <a href="#"><abbr title="Faça o seu login">Login</abbr></a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro consectetur et vitae repudiandae nulla neque omnis fugiat? Enim impedit deserunt minima asperiores voluptatibus natus commodi fugiat in. Dolore, labore accusantium!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Wesley Carlos</p>
+    </footer>
+</body>
+</html>
